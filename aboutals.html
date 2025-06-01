@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Education Website Template</title>
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/ALS Logo.png" class="logo">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutals.html">About ALS</a></li>
+				<li><a href="update.html">Updates</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="https://forms.gle/MPoi5ZPNdb2zwBa88" class="active">ENROLL NOW</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="home">
+		<h2>
+			About Alternative Learning System - ALS
+		</h2>
+		<p>EMPOWERING LIFELONG LEARNERS</p>
+		<p>#SaALSMayPag-asa</p>
+		<div class="btn">
+			<a href="https://forms.gle/MPoi5ZPNdb2zwBa88" class="yellow">ENROLL NOW</a>
+		</div>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>What is AlS</h1>
+		<p>The Alternative Learning System (ALS) in the Philippines is a parallel learning system designed to provide basic education to individuals who have not been able to access or complete formal education. It offers a practical, alternative pathway for out-of-school youth and adults, including those with literacy gaps. ALS includes both non-formal and informal learning sources and aims to improve literacy skills, promote equivalent pathways to basic education, and enhance the quality of life for individuals who need a second chance at education. </p>
+
+		<div class="fea-base">
+			<div class="fea-box">
+				<i class="fas fa-graduation-cap"></i>
+				<h3>Parallel System:</h3>
+				<p>ALS is a parallel system to the formal education system, providing an alternative learning pathway for individuals who cannot access or complete formal education.</p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fa-solid fa-book-bookmark"></i>
+				<h3>Target Audience:</h3>
+				<p>ALS primarily serves out-of-school children, youth, and adults (OSCYAs), including those who have dropped out of school, have never attended school, or need to improve their literacy skills.</p>
+			</div>
+
+			<div class="fea-box">
+				<i class="fas fa-award"></i>
+				<h3>Community-Based Learning:</h3>
+				<p>ALS often emphasizes community-based learning, promoting self-help and community development. </p>
+			</div>
+		</div>
+	</section>
+	<!-- Features section ends from here -->
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>Follow Us</h3>
+			<li>@ALSMF</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Email Us</h3>
+			<li>modestomalourdes@gmail.com</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Contact Us</h3>
+			<li>Phone #0936-031-9644</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Locate Us</h3>
+			<li><a href="https://www.google.com/maps/place/Barangay+Sankanan/@8.320363,124.7785351,12z/data=!4m10!1m2!2m1!1ssankanan,+manolo+fortich,+bukidnon+barangay+Hall!3m6!1s0x32ff97e1729d3015:0x3cb2b7f5c93029df!8m2!3d8.3148323!4d124.8587514!15sCjBzYW5rYW5hbiwgbWFub2xvIGZvcnRpY2gsIGJ1a2lkbm9uIGJhcmFuZ2F5IEhhbGySARBjb21tdW5pdHlfY2VudGVyqgFqEAEqESINYmFyYW5nYXkgaGFsbCggMh8QASIbpu2v2DvyIt5sJYtmqNEoepUL5aue95V2QFh-MjIQAiIuc2Fua2FuYW4gbWFub2xvIGZvcnRpY2ggYnVraWRub24gYmFyYW5nYXkgaGFsbOABAA!16s%2Fg%2F11bz0dv_d5?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D">ALS Manolo Maps</a></li>
+
+		<div class="copyright">
+			<p>Copyright @ 2022 All rights reserved | This template is made by Me</p>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
